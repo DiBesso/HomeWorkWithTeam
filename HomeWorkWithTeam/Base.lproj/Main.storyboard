@@ -16,22 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSm-vY-8RQ">
-                                <rect key="frame" x="119.5" y="445" width="81" height="43"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Save">
-                                            <attributes>
-                                                <font key="NSFont" size="25" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="saveAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="vPI-gV-Wak"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="1pi-Z5-cSj">
                                 <rect key="frame" x="30" y="84.5" width="270" height="319"/>
                                 <subviews>
@@ -111,8 +95,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NSm-vY-8RQ" secondAttribute="bottom" constant="80" id="1jC-eM-dgZ"/>
-                            <constraint firstItem="NSm-vY-8RQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9m3-Ok-s1l"/>
                             <constraint firstItem="1pi-Z5-cSj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="F6E-Ai-vnn">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-40"/>
                             </constraint>

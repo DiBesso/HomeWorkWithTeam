@@ -39,8 +39,5 @@ class SettingsViewController: UIViewController {
     @IBAction func parksSwitchAction() {
     }
     
-    @IBAction func saveAction() {
-        
-        // передаем данные с этого экрана на предыдущий
-    }
+
 }
