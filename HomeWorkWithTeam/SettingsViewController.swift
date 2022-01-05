@@ -19,7 +19,6 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     // по умолчанию все свичи включены и все достопримечательности открыты
@@ -39,5 +38,15 @@ class SettingsViewController: UIViewController {
     @IBAction func parksSwitchAction() {
     }
     
-
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        guard let tabBarController = segue.destination as? UITabBarController else {return}
+//        guard let viewControllers = tabBarController.viewControllers else { return }
+//
+//        for viewController in viewControllers {
+//    if let _ = viewController as? _{
+//       code
+//    } else if let navigationVC = viewController as? UINavigationController {
+//        let _VC = navigationVC.topViewController as! _
+//        code
 }
