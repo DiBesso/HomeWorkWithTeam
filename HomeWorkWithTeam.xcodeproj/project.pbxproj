@@ -13,6 +13,7 @@
 		A42C0BAF278407AB006A8F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42C0BAD278407AB006A8F5D /* Main.storyboard */; };
 		A42C0BB1278407AC006A8F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42C0BB0278407AC006A8F5D /* Assets.xcassets */; };
 		A42C0BB4278407AC006A8F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42C0BB2278407AC006A8F5D /* LaunchScreen.storyboard */; };
+		A4B80AA42786A4CA000BF7DD /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B80AA32786A4CA000BF7DD /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A42C0BB0278407AC006A8F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42C0BB3278407AC006A8F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42C0BB5278407AC006A8F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B80AA32786A4CA000BF7DD /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = Storyboards/Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A42C0BA9278407AB006A8F5D /* SceneDelegate.swift */,
 				A42C0BAB278407AB006A8F5D /* SettingsViewController.swift */,
 				A42C0BAD278407AB006A8F5D /* Main.storyboard */,
+				A4B80AA32786A4CA000BF7DD /* Settings.storyboard */,
 				A42C0BB0278407AC006A8F5D /* Assets.xcassets */,
 				A42C0BB2278407AC006A8F5D /* LaunchScreen.storyboard */,
 				A42C0BB5278407AC006A8F5D /* Info.plist */,
@@ -128,6 +131,7 @@
 				A42C0BB4278407AC006A8F5D /* LaunchScreen.storyboard in Resources */,
 				A42C0BB1278407AC006A8F5D /* Assets.xcassets in Resources */,
 				A42C0BAF278407AB006A8F5D /* Main.storyboard in Resources */,
+				A4B80AA42786A4CA000BF7DD /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
